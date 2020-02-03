@@ -2953,6 +2953,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/firmware/FPCTZAPP.B06:$(TARGET_COPY_OUT_VENDOR)/firmware/FPCTZAPP.B06 \
     vendor/xiaomi/daisy/proprietary/vendor/firmware/FPCTZAPP.MDT:$(TARGET_COPY_OUT_VENDOR)/firmware/FPCTZAPP.MDT \
     vendor/xiaomi/daisy/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspl.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/libops.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libops.so \
+	vendor/xiaomi/daisy/proprietary/vendor/lib/libmmcamera_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw_tnr.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libllvd_smore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_smore.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libmmcamera_ppeiscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppeiscore.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libllvd_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_sw_tnr.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/mmcamera.msm8953_shim.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmcamera.msm8953_shim.so \
 
 PRODUCT_PACKAGES += \
     libbtconfigstore \
