@@ -2952,6 +2952,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/firmware/FPCTZAPP.B05:$(TARGET_COPY_OUT_VENDOR)/firmware/FPCTZAPP.B05 \
     vendor/xiaomi/daisy/proprietary/vendor/firmware/FPCTZAPP.B06:$(TARGET_COPY_OUT_VENDOR)/firmware/FPCTZAPP.B06 \
     vendor/xiaomi/daisy/proprietary/vendor/firmware/FPCTZAPP.MDT:$(TARGET_COPY_OUT_VENDOR)/firmware/FPCTZAPP.MDT \
+    vendor/xiaomi/daisy/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
 
 PRODUCT_PACKAGES += \
     libbtconfigstore \
