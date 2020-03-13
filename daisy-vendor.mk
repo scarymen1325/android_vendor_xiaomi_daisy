@@ -46,6 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/lib/extractors/libmmparserextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib/extractors/libmmparserextractor.so \
     vendor/xiaomi/daisy/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
     vendor/xiaomi/daisy/proprietary/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
+    vendor/xiaomi/daisy/proprietary/lib/libbluetooth_qti.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbluetooth_qti.so \
     vendor/xiaomi/daisy/proprietary/lib/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdiag_system.so \
     vendor/xiaomi/daisy/proprietary/lib/libdpmctmgr.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdpmctmgr.so \
     vendor/xiaomi/daisy/proprietary/lib/libdpmfdmgr.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdpmfdmgr.so \
@@ -91,6 +92,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/lib64/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libFileMux.so \
     vendor/xiaomi/daisy/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/xiaomi/daisy/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
+    vendor/xiaomi/daisy/proprietary/lib64/libbluetooth_qti.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbluetooth_qti.so \
     vendor/xiaomi/daisy/proprietary/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdiag_system.so \
     vendor/xiaomi/daisy/proprietary/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmosal.so \
     vendor/xiaomi/daisy/proprietary/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmparser_lite.so \
