@@ -277,7 +277,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/product/lib64/com.quicinc.cne.server@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.quicinc.cne.server@1.0.so \
     vendor/xiaomi/daisy/proprietary/product/lib64/com.quicinc.cne.server@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.quicinc.cne.server@2.0.so \
     vendor/xiaomi/daisy/proprietary/product/lib64/com.quicinc.cne.server@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.quicinc.cne.server@2.1.so \
-    vendor/xiaomi/daisy/proprietary/product/lib64/com.quicinc.cne.server@2.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.quicinc.cne.server@2.2.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/com.quicinc.cne.server@2.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.quicinc.cne.server@2.2.so \
     vendor/xiaomi/daisy/proprietary/product/lib64/lib-imscamera.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/lib-imscamera.so \
     vendor/xiaomi/daisy/proprietary/product/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/lib-imsvideocodec.so \
     vendor/xiaomi/daisy/proprietary/product/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/lib-imsvt.so \
