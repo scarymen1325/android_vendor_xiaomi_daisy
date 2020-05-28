@@ -19,11 +19,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/daisy
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/daisy/proprietary/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libDiracAPI_SHARED.so \
-    vendor/xiaomi/daisy/proprietary/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
-    vendor/xiaomi/daisy/proprietary/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/libasphere.so \
-    vendor/xiaomi/daisy/proprietary/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/libdirac.so \
-    vendor/xiaomi/daisy/proprietary/lib64/soundfx/libasphere.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/soundfx/libasphere.so \
     vendor/xiaomi/daisy/proprietary/bin/perfservice:$(TARGET_COPY_OUT_SYSTEM)/bin/perfservice \
     vendor/xiaomi/daisy/proprietary/bin/sigma_miracasthalservice:$(TARGET_COPY_OUT_SYSTEM)/bin/sigma_miracasthalservice \
     vendor/xiaomi/daisy/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
@@ -3369,7 +3364,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/firmware/FPCTZAPP.B05:$(TARGET_COPY_OUT_VENDOR)/firmware/FPCTZAPP.B05 \
     vendor/xiaomi/daisy/proprietary/vendor/firmware/FPCTZAPP.B06:$(TARGET_COPY_OUT_VENDOR)/firmware/FPCTZAPP.B06 \
     vendor/xiaomi/daisy/proprietary/vendor/firmware/FPCTZAPP.MDT:$(TARGET_COPY_OUT_VENDOR)/firmware/FPCTZAPP.MDT \
-    vendor/xiaomi/daisy/proprietary/vendor/etc/acdbdata/QRD/QRD_adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_adsp_avs_config.acdb \
+    vendor/xiaomi/daisy/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspl.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/libops.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libops.so \
 	vendor/xiaomi/daisy/proprietary/vendor/lib/libmmcamera_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw_tnr.so \
